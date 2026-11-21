@@ -9,5 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bon-fils/-my-web-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bon-fils/-my-web-app/issues"
+  },
+  "homepage": "https://github.com/bon-fils/-my-web-app#readme"
 }
