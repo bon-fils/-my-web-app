@@ -55,6 +55,13 @@ const server = http.createServer((req, res) => {
         });
     }
 
+    
+    // About page route
+    else if (req.method === 'GET' && req.url === '/about') {
+        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        res.end('About Page\n');
+    }
+
     // Handle unknown routes
     else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
@@ -65,3 +72,4 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
+
